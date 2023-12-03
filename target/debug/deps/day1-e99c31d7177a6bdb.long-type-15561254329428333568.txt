@@ -1,0 +1,1 @@
+(fn(&str) -> Result<(&str, &str), nom::Err<_>> {nom::character::complete::digit1::<&str, _>}, for<'a> fn(&'a str) -> Result<(&'a str, u32), nom::Err<nom::error::Error<&'a str>>> {parse_spelled_out_num})
